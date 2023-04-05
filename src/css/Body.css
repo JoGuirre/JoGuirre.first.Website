@@ -1,3 +1,5 @@
 .body__container {
-    color: black;
+    color: var(--fiv-color);
+    background-color: var(--ter-color);
+    flex: 1;
 }

@@ -13,9 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --pri-color: rgb(1, 1, 1);
-  --sec-color: rgb(100, 100, 100);
-  --ter-color: rgb(255, 255, 255);
+  --pri-color: #05386B;
+  --sec-color: #379683;
+  --ter-color: #5CDB95;
+  --fou-color: #8EE4AF;
+  --fiv-color: #EDF5E1;
 }
 
 html, body {
