@@ -5,20 +5,20 @@
     position: sticky;
     left: 0;
     top: 0;
-    color: var(--sec-color);
+    color: var(--ter-color);
     transition: 0.3s;
 }
 
-.nav__title {
-    display: none;
+.header__logo {
+    width: 100%;
 }
 
 .header__container:hover {
     width: 15%;
 }
 
-.header__container:hover > .nav__title {
-    display: inline;
+.nav__title {
+    display: none;
 }
 
 .header__space {
@@ -31,5 +31,5 @@
 }
 
 .nav__icon {
-    color: var(--sec-color);
+    color: var(--ter-color);
 }
