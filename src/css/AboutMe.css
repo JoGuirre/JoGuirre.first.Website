@@ -1,4 +1,13 @@
 .aboutMe__container {
+    background-color: var(--for-color);
+    color: var(--fiv-color);
+}
+
+.aboutMe__container > h1 {
+    text-align: center;
+}
+
+.p__container {
     display: flex;
 }
 
@@ -7,7 +16,7 @@
 }
 
 .middle__column {
-    flex: .5;
+    flex: .3;
 }
 
 .right__column {
@@ -15,7 +24,15 @@
     text-align: right;
 }
 
-#p__1 {
+.p__left {
+    margin-left: 10px;
+}
+
+.p__right {
+    margin-right: 10px;
+}
+
+/* #p__1 {
 
 }
 
@@ -41,4 +58,4 @@
 
 #p__7 {
 
-}
+} */
