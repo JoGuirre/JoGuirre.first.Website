@@ -5,8 +5,8 @@
     position: sticky;
     left: 0;
     top: 0;
-    color: var(--fiv-color);
-    background-color: var(--sec-color);
+    color: var(--pri-color);
+    background-color: var(--ter-color);
     transition: 0.3s;
 }
 
@@ -32,5 +32,11 @@
 }
 
 .nav__icon {
+    color: var(--pri-color);
+    background-color: var(--ter-color);
+}
+
+.header__container:hover > * {
     color: var(--fiv-color);
+    background-color: var(--pri-color);
 }

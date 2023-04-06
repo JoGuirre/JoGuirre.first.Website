@@ -1,0 +1,44 @@
+.body__container {
+    color: var(--fiv-color);
+    background-color: var(--ter-color);
+    flex: 1;
+}
+
+.body__intro {
+    color: var(--pri-color);
+    background-color: var(--fiv-color);
+}
+
+.body__intro__header {
+    width: 50%;
+    height: fit-content;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.body__intro__subtext {
+    margin-left: 5%;
+    color: var(--ter-color);
+}
+
+.body__intro__button {
+    margin-left: 10%;
+    height: 40px;
+    width: 120px;
+    background: transparent;
+    border: 2px solid var(--pri-color);
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--pri-color);
+}
+
+.body__intro__button:hover {
+    background-color: var(--ter-color);
+    color: var(--fiv-color);
+    border: 3px solid var(--sec-color);
+}
+
+#intro__dev {
+    margin-left: 10%;
+}
