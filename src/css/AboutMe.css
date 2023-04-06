@@ -1,0 +1,44 @@
+.aboutMe__container {
+    display: flex;
+}
+
+.left__column {
+    flex: 1;
+}
+
+.middle__column {
+    flex: .5;
+}
+
+.right__column {
+    flex: 1;
+    text-align: right;
+}
+
+#p__1 {
+
+}
+
+#p__2 {
+
+}
+
+#p__3 {
+
+}
+
+#p__4 {
+
+}
+
+#p__5 {
+
+}
+
+#p__6 {
+
+}
+
+#p__7 {
+
+}

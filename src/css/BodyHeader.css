@@ -1,4 +1,4 @@
-.body__container {
+.body__header__container {
     color: var(--fiv-color);
     background-color: var(--ter-color);
     flex: 1;
