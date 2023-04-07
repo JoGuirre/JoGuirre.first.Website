@@ -1,12 +1,12 @@
 .body__header__container {
+    border: 2px solid red;
     color: var(--fiv-color);
-    background-color: var(--ter-color);
+    background-color: var(--fiv-color);
     flex: 1;
 }
 
 .body__intro {
     color: var(--pri-color);
-    background-color: var(--fiv-color);
 }
 
 .body__intro__header {

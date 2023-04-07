@@ -20,7 +20,9 @@ function AboutMe() {
                 <p>As with any project, challenges always arise, but I enjoy the problem-solving process and overcome them with persistence and extensive online research.</p>
             </div>
         </div>
-        <div className="middle__column"></div>
+        <div className="middle__column">
+            <div className="separator"></div>
+        </div>
         <div className="right__column">
             <div className="p p__right" id="p__2">
                 <h2>Approach to Problem-Solving</h2>
