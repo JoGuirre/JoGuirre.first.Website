@@ -13,9 +13,9 @@ function Header() {
         <div className="header__space"></div>
         <div className="nav__links">
             <ul>
-                <li><a href=""><HomeOutlinedIcon className="nav__icon"/><span className="nav__title">Home</span></a></li>
-                <li><a href=""><LiveHelpOutlinedIcon className="nav__icon"/><span className="nav__title">About</span></a></li>
-                <li><a href=""><ContactPageOutlinedIcon className="nav__icon"/><span className="nav__title">Contact</span></a></li>
+                <li><a href=""><HomeOutlinedIcon fontSize='large' className="nav__icon"/><span className="nav__title">Home</span></a></li>
+                <li><a href=""><LiveHelpOutlinedIcon fontSize='large' className="nav__icon"/><span className="nav__title">About</span></a></li>
+                <li><a href=""><ContactPageOutlinedIcon fontSize='large' className="nav__icon"/><span className="nav__title">Contact</span></a></li>
             </ul>
         </div>
     </div>
