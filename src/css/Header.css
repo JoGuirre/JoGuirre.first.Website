@@ -2,12 +2,18 @@
     display: flex;
     flex-direction: column;
     width: 5%;
-    position: sticky;
+    position: relative;
     left: 0;
     top: 0;
     color: var(--pri-color);
     background-color: transparent;
     transition: 0.3s;
+}
+
+.sidebar__sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .header__logo {
@@ -31,6 +37,15 @@
 .nav__links > ul {
     list-style-type: none;
     padding: 0;
+}
+
+.social__links > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social__icon {
+    width: 2em;
 }
 
 .nav__icon {
