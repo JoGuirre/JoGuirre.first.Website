@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/AboutMe.css'
+import Art from './Art'
 
 function AboutMe() {
   return (
@@ -21,7 +22,7 @@ function AboutMe() {
             </div>
         </div>
         <div className="middle__column">
-            <div className="separator"></div>
+            <Art />
         </div>
         <div className="right__column">
             <div className="p p__right" id="p__2">

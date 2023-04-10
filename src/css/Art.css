@@ -1,0 +1,10 @@
+.separator {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    z-index: -999;
+    background: rgb(115,91,233);
+    background: linear-gradient(50deg, rgba(115,91,233,1) 0%, rgba(243,0,255,1) 100%);
+    filter: blur(3px);
+}
