@@ -1,0 +1,19 @@
+.project__picture {
+    box-shadow: 2px 2px 5px grey;
+}
+
+.project__caption__container {
+    max-width: 50%;
+}
+
+.project__caption__container > p {
+    margin-top: 0;
+}
+
+.project__link {
+    color: var(--fou-color);
+}
+
+.project__link:visited {
+    color: var(--ter-color);
+}
