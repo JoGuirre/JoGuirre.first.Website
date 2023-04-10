@@ -6,7 +6,7 @@
     left: 0;
     top: 0;
     color: var(--pri-color);
-    background-color: var(--ter-color);
+    background-color: transparent;
     transition: 0.3s;
 }
 
@@ -16,6 +16,8 @@
 
 .header__container:hover {
     width: 15%;
+    background-color: var(--sec-color);
+    color: var(--fiv-color);
 }
 
 .nav__title {
@@ -32,11 +34,9 @@
 }
 
 .nav__icon {
-    color: var(--pri-color);
-    background-color: var(--ter-color);
+    color: var(--fou-color);
 }
 
-.header__container:hover > * {
-    color: var(--fiv-color);
-    background-color: var(--pri-color);
-}
+/* .header__container:hover > .nav__icon {
+    color: black;
+} */

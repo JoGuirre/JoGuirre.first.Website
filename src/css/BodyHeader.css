@@ -1,5 +1,4 @@
 .body__header__container {
-    border: 2px solid red;
     color: var(--fiv-color);
     background-color: var(--fiv-color);
     flex: 1;
@@ -11,7 +10,7 @@
 
 .body__intro__header {
     width: 50%;
-    height: fit-content;
+    height: 250px;
     margin-left: 5%;
     margin-top: 10%;
 }
