@@ -1,9 +1,33 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.project__container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(237, 245, 225, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 5px rgba(5, 56, 107, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.project__container > h3 {
+    width: fit-content;
+}
+
 .project__picture {
-    box-shadow: 2px 2px 5px grey;
+    border: 1px solid rgba(237, 245, 225, 0.5);
+    border-radius: 5px;
+    align-self: center;
 }
 
 .project__caption__container {
-    max-width: 50%;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgba(237, 245, 225, 0.5); */
 }
 
 .project__caption__container > p {

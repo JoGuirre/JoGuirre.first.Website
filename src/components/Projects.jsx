@@ -1,15 +1,19 @@
 import React from 'react'
 import '../css/Projects.css'
 import Project from './Project'
+import TwitterClone from '../assets/twitter-clone.png'
+import ChatCloneChatRoom from '../assets/chat-clone-chat-room.png'
+import TTTGame from '../assets/tictactoe-game.png'
 
 function Projects() {
   return (
-    <div>
-        <Project imgSrc='twitter-clone.png' text='This is a twitter clone' size={{ width: 200, height: 300 }} ghUrl="https://github.com/JoGuirre/twitter-clone" />
+    <div className="projects__container">
+      <h1><span>Projects</span></h1>
+        <Project imgSrc={TwitterClone} title='Twitter Clone' text='Vite, ReactJs, HTML, CSS, JS' size={{ width: 200, height: 300 }} ghUrl="https://github.com/JoGuirre/twitter-clone" />
 
-        <Project imgSrc='chat-clone-chat-room.png' text='This is a chat room' size={{ width: 200, height: 300 }} />
+        <Project imgSrc={ChatCloneChatRoom} title='Chat Room' text='Vite, ReactJs, Fireship DB, Google Auth, HTML, CSS, JS' size={{ width: 200, height: 300 }} />
 
-        <Project imgSrc='tictactoe-game.png' text='This is a tic tac toe game' size={{ width: 200, height: 300 }} ghUrl="https://github.com/JoGuirre/tictactoe-game" />
+        <Project imgSrc={TTTGame} title='Tic Tac Toe' text='Vite, ReactJs, HTML, CSS, JS' size={{ width: 200, height: 300 }} ghUrl="https://github.com/JoGuirre/tictactoe-game" />
     </div>
   )
 }

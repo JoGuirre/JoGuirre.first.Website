@@ -1,0 +1,10 @@
+.projects__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projects__container > h1 {
+    width: 100%;
+    text-align: center;
+}
