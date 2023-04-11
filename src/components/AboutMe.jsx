@@ -24,6 +24,7 @@ function AboutMe() {
         <div className="middle__column">
             <Art shape="blob" id='one' />
             <Art shape="blob" id='two' />
+            <Art shape="blob" id='three' />
         </div>
         <div className="right__column">
             <div className="p p__right" id="p__2">
