@@ -20,6 +20,7 @@
 }
 
 .right__column {
+    position: relative;
     flex: 1;
     text-align: right;
 }
@@ -40,30 +41,15 @@
     line-height: 1.2em;
 }
 
-/* #p__1 {
-
+.p > h3 {
+    width: fit-content;
+    padding: 5px;
+    border: 1px solid rgb(237, 245, 225, 0.2); /* custom fifth color in rgba value */
+    border-radius: 5px;
+    background-color: rgba(5, 56, 107, 0.1); /* custom primary color in rgba value */
 }
 
-#p__2 {
-
+.p__right > h3 {
+    position: relative;
+    place-self: right;
 }
-
-#p__3 {
-
-}
-
-#p__4 {
-
-}
-
-#p__5 {
-
-}
-
-#p__6 {
-
-}
-
-#p__7 {
-
-} */

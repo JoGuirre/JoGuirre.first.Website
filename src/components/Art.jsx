@@ -1,9 +1,9 @@
 import React from 'react'
 import '../css/Art.css'
 
-function art() {
+function art({ id, shape }) {
   return (
-    <div className="separator">&nbsp;</div>
+    <div className={shape} id={id}>&nbsp;</div>
   )
 }
 

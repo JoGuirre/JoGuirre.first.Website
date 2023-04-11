@@ -1,10 +1,24 @@
-.separator {
+.blob {
     position: absolute;
     height: 200px;
     width: 200px;
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     z-index: -999;
+}
+
+#one {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     background: rgb(115,91,233);
     background: linear-gradient(50deg, rgba(115,91,233,1) 0%, rgba(243,0,255,1) 100%);
     filter: blur(3px);
+}
+
+#two {
+    border-radius: 63% 37% 56% 44% / 75% 74% 26% 25%;
+    background: rgb(115,91,233);
+    background: linear-gradient(137deg, rgb(91, 179, 233) 0%, rgb(111, 0, 255) 100%);
+    filter: blur(3px);
+    right: 50px;
+    bottom: 250px;
+    width: 100px;
+    height: 350px;
 }
