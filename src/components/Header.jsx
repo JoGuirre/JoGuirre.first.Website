@@ -13,17 +13,43 @@ function Header() {
         <div className="header__logo">
             Logo
         </div>
-        <div className="header__space"></div>
         <div className="nav__links">
             <ul>
-                <li><a href=""><HomeOutlinedIcon fontSize='large' className="nav__icon"/><span className="nav__title">Home</span></a></li>
-                <li><a href=""><LiveHelpOutlinedIcon fontSize='large' className="nav__icon"/><span className="nav__title">About</span></a></li>
-                <li><a href=""><ContactPageOutlinedIcon fontSize='large' className="nav__icon"/><span className="nav__title">Contact</span></a></li>
+                <li>
+                  <a href="">
+                    <span className="navlink__items">
+                      <HomeOutlinedIcon fontSize='large' className="nav__icon"/>
+                      <span className="nav__title">Home</span>
+                    </span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="">
+                    <span className="navlink__items">
+                      <LiveHelpOutlinedIcon fontSize='large' className="nav__icon"/>
+                      <span className="nav__title">About</span>
+                    </span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="">
+                    <span className="navlink__items">
+                      <ContactPageOutlinedIcon fontSize='large' className="nav__icon"/>
+                      <span className="nav__title">Contact</span>
+                    </span>
+                  </a>
+                </li>
             </ul>
         </div>
         <div className="social__links">
           <ul>
-            <li><a href="https://github.com/JoGuirre"><img className="social__icon" src={GitHubIcon} alt="github logo link" /></a></li>
+            <li>
+              <a href="https://github.com/JoGuirre">
+                <img className="social__icon" src={GitHubIcon} alt="github logo link" />
+              </a>
+            </li>
             <li><a href="https://www.linkedin.com/in/joshuacaguirre/"><img className="social__icon" src={LinkedInIcon} alt="linkedin logo link" /></a></li>
           </ul>
         </div>

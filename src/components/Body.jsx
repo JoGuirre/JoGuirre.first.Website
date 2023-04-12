@@ -3,6 +3,7 @@ import '../css/Body.css'
 import BodyHeader from './BodyHeader'
 import AboutMe from './AboutMe'
 import Projects from './Projects'
+import ContactMe from './ContactMe'
 
 function Body() {
   return (
@@ -10,6 +11,7 @@ function Body() {
         <BodyHeader />
         <AboutMe />
         <Projects />
+        <ContactMe />
     </div>
   )
 }
