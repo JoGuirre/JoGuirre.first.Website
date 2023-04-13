@@ -43,14 +43,24 @@ function Header() {
                 </li>
             </ul>
         </div>
-        <div className="social__links">
+        <div className="social__links nav__links">
           <ul>
             <li>
               <a href="https://github.com/JoGuirre">
-                <img className="social__icon" src={GitHubIcon} alt="github logo link" />
+                <span className="navlink__items">
+                  <img className="social__icon" src={GitHubIcon} alt="github logo link" />
+                  <span className="nav__title social__title">GitHub</span>
+                </span>
               </a>
             </li>
-            <li><a href="https://www.linkedin.com/in/joshuacaguirre/"><img className="social__icon" src={LinkedInIcon} alt="linkedin logo link" /></a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/joshuacaguirre/">
+                <span className="navlink__items">
+                  <img className="social__icon" src={LinkedInIcon} alt="linkedin logo link" />
+                  <span className="nav__title social__title">LinkedIn</span>
+                </span>
+              </a>
+            </li>
           </ul>
         </div>
         </div>

@@ -21,14 +21,14 @@
 }
 
 .sidebar__sticky:hover {
-    width: 150px;
+    width: 120px;
     background-color: var(--sec-color);
     color: var(--fiv-color);
     opacity: 1;
 }
 
 .nav__title {
-    color: white;
+    color: var(--fiv-color);
     margin-left: 5px;
     font-size: 1.2em;
     opacity: 0;
@@ -36,12 +36,16 @@
 }
 
 .sidebar__sticky:hover .nav__title {
-    color: white;
+    color: var(--fiv-color);
     opacity: 1;
 }
 
 .header__space {
     height: 150px;
+}
+
+.nav__links {
+    margin-left: 5px;
 }
 
 .nav__links > ul {
@@ -63,7 +67,11 @@ ul > li > a {
 }
 
 .social__links {
-    
+    margin-left: 10px;
+}
+
+.social__title {
+    font-size: 0.9em;
 }
 
 .social__links > ul {
