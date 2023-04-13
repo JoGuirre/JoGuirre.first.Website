@@ -1,5 +1,7 @@
 .header__container {
     color: var(--fiv-color);
+    background: rgb(23, 23, 23);
+    border-right: 1px solid var(--fiv-color);
 }
 
 .sidebar__sticky {
@@ -25,6 +27,7 @@
     background-color: var(--sec-color);
     color: var(--fiv-color);
     opacity: 1;
+    border-right: 1px solid var(--fiv-color);
 }
 
 .nav__title {

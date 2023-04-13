@@ -1,0 +1,29 @@
+.trail-effect {
+    width: 20px;
+    height: 20px;
+    background: red;
+    /* animation: trail 0.5s linear infinite; */
+  }
+  
+  @keyframes trail {
+    0% {
+       opacity: 1;
+       transform: scale(1);
+    }
+    100% {
+       opacity: 0;
+       transform: scale(0.3);
+    }
+  }
+  
+  /* .trail-effect::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+    transform-origin: center center;
+  } */
