@@ -1,7 +1,13 @@
 .body__header__container {
     color: var(--fiv-color);
-    background-color: var(--fiv-color);
+    /* background-color: var(--fiv-color); */
+    background: linear-gradient(60deg, var(--fiv-color) 60%, var(--sec-color) 60%, var(--fiv-color) 100%);
+    /* background: linear-gradient(180deg, var(--fiv-color) 60%, var(--sec-color) 60%, var(--fiv-color) 100%); */
     flex: 1;
+}
+.body__header__container__two {
+    background: transparent;
+    background: linear-gradient(160deg, transparent 49%, var(--fou-color) 49%, transparent 85%);
 }
 
 .body__intro {
@@ -35,9 +41,9 @@
 }
 
 .body__intro__button:hover {
-    background-color: var(--ter-color);
-    color: var(--fiv-color);
-    border: 3px solid var(--sec-color);
+    background-color: var(--fiv-color);
+    color: var(--pri-color);
+    border: 3px solid var(--pri-color);
     cursor: pointer;
 }
 

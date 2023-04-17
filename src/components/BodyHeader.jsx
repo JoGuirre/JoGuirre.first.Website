@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import '../css/BodyHeader.css'
+import React, { useEffect, useState } from "react";
+import "../css/BodyHeader.css";
 
 function BodyHeader() {
-  const [text, setText] = useState('');
+  const [text, setText] = useState("");
   const introText = "Hi,\nI'm Josh,\nweb developer";
-  const subText = "Front-End | Back-End | Full Stack";
+  const subText = "front-end | back-end";
   const delay = 50;
 
   useEffect(() => {
@@ -15,11 +15,21 @@ function BodyHeader() {
       } else if (currentIndex < introText.length) {
         setText(introText.slice(0, currentIndex + 1));
       } else if (currentIndex === introText.length) {
-        setText(introText + '\n');
+        setText(introText + "\n");
       } else {
-        setText(introText + '\n' + subText.split('').map((char, index) => {
-          return `<span style="animation-delay: ${index * delay}ms">${char}</span>`;
-        }).slice(0, currentIndex - introText.length).join(''));
+        setText(
+          introText +
+            "\n" +
+            subText
+              .split("")
+              .map((char, index) => {
+                return `<span style="animation-delay: ${
+                  index * delay
+                }ms">${char}</span>`;
+              })
+              .slice(0, currentIndex - introText.length)
+              .join("")
+        );
       }
       currentIndex++;
     }, delay);
@@ -27,18 +37,27 @@ function BodyHeader() {
   }, [introText, subText, delay]);
 
   const handleClick = () => {
-    console.log('Contact Me Clicked');
-  }
+    console.log("Contact Me Clicked");
+  };
 
   return (
-    <div className="body__header__container">
+    <div id="target__home" className="body__header__container">
+      <div className="body__header__container__two">
         <div className="body__intro">
-            <h1 className="body__intro__header" dangerouslySetInnerHTML={{ __html: text }}></h1>
-            {/* <h3 className="body__intro__subtext"></h3> */}
-            <button onClick={handleClick} className="body__intro__button">Contact Me</button>
+          <h1
+            className="body__intro__header"
+            dangerouslySetInnerHTML={{ __html: text }}
+          ></h1>
+          {/* <h3 className="body__intro__subtext"></h3> */}
+          <a href="#target__contact">
+            <button onClick={handleClick} className="body__intro__button">
+              Contact Me
+            </button>
+          </a>
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default BodyHeader;

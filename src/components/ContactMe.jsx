@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import "../css/ContactMe.css";
 import JoinedPopup from "./JoinedPopup";
 
 function ContactMe() {
   const [state, handleSubmit] = useForm("meqwpvaq");
-  if (state.succeeded) {
-    return <JoinedPopup />;
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClosePopup = () => {
+    setIsOpen(false);
+  };
+
+  if (state.succeeded && isOpen) {
+    return <JoinedPopup setIsOpen={setIsOpen} />;
   }
 
   return (
-    <div className="contact__box">
+    <div id="target__contact" className="contact__box">
       <h1 id="contact__header">Contact Me</h1>
       <div className="contactMe__container">
         <div className="contact__side">
