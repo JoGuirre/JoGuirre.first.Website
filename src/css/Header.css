@@ -4,6 +4,20 @@
     border-right: 1px solid var(--fiv-color);
 }
 
+.header__logo {
+    margin-left: 3px;
+}
+
+.header__logo * {
+    margin: 0;
+    padding: 0;
+    transition: 0.1s;
+}
+
+.sidebar__sticky:hover .header__logo * {
+    font-size: 1.3em;
+}
+
 .sidebar__sticky {
     display: flex;
     flex-direction: column;

@@ -10,7 +10,14 @@ function Header() {
   return (
     <div className="header__container">
       <div className="sidebar__sticky">
-        <div className="header__logo">Logo</div>
+        <div className="header__logo">
+          <span>
+            <h2 className="logo">JA</h2>
+          </span>
+          <span>
+            <h6 className="logo">WebDev</h6>
+          </span>
+        </div>
         <div className="nav__links">
           <ul>
             <li>
