@@ -7,10 +7,10 @@ function JoinedPopup({ setIsOpen }) {
       <div className="things">
         <h1>Your email has been sent!</h1>
         <p>
-          Thank you for your message!
+          <h3>Thank you for your message!</h3>
           <br />I will be in contact within 2 business days.
           <br />
-          Until then.
+          Please browse my projects!
         </p>
         <button id="close__popup" onClick={() => setIsOpen(false)}>
           Close
