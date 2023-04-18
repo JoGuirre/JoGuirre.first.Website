@@ -7,10 +7,6 @@ function ContactMe() {
   const [state, handleSubmit] = useForm("meqwpvaq");
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleClosePopup = () => {
-    setIsOpen(false);
-  };
-
   if (state.succeeded && isOpen) {
     return <JoinedPopup setIsOpen={setIsOpen} />;
   }
@@ -55,6 +51,7 @@ function ContactMe() {
               type="submit"
               id="submit-button"
               disabled={state.submitting}
+              onClick={() => setIsOpen(true)}
             >
               Send
             </button>

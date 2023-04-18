@@ -2,10 +2,6 @@ import React from "react";
 import "../css/JoinedPopup.css";
 
 function JoinedPopup({ setIsOpen }) {
-  const handleClose = () => {
-    alert("Almost there!");
-    setIsOpen(false);
-  };
   return (
     <div className="popup__container">
       <div className="things">
@@ -14,9 +10,9 @@ function JoinedPopup({ setIsOpen }) {
           Thank you for your message!
           <br />I will be in contact within 2 business days.
           <br />
-          Until then, go flub urself beotch.
+          Until then.
         </p>
-        <button id="close__popup" onClick={handleClose}>
+        <button id="close__popup" onClick={() => setIsOpen(false)}>
           Close
         </button>
       </div>
