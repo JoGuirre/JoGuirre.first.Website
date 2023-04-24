@@ -3,4 +3,23 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    position: relative;
+    overflow-x: hidden;
 }
+
+.background__blob__container {
+    z-index: -99;
+    position: absolute;
+    /* aspect-ratio: 900/540; */
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+
+    background-image: url('../assets/circle-scatter-haikei.svg');
+}
+
+/* .background__blob {
+    width: 100vw;
+} */
