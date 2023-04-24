@@ -2,6 +2,7 @@
     color: var(--fiv-color);
     background: rgb(23, 23, 23);
     border-right: 1px solid var(--fiv-color);
+    position: relative;
 }
 
 .header__logo {
@@ -37,7 +38,7 @@
 }
 
 .sidebar__sticky:hover {
-    width: 120px;
+    width: 140px;
     background-color: var(--sec-color);
     color: var(--fiv-color);
     opacity: 1;
@@ -47,6 +48,7 @@
 .nav__title {
     color: var(--fiv-color);
     margin-left: 5px;
+    padding: 2px 6px;
     font-size: 1.2em;
     opacity: 0;
     transition: 500ms;
@@ -55,6 +57,11 @@
 .sidebar__sticky:hover .nav__title {
     color: var(--fiv-color);
     opacity: 1;
+}
+
+.nav__title:hover {
+    background: rgba(128, 128, 128, 0.6);
+    border-radius: 5px;
 }
 
 .header__space {
@@ -107,4 +114,24 @@ ul > li > a {
 
 ul {
     margin-left: 3px;
+}
+
+.header__blobs {
+    z-index: -99;
+    opacity: 0;
+    position: absolute;
+    /* aspect-ratio: 900/540; */
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+
+    /* background-image: url('../assets/circle-scatter-haikei2.svg'); */
+    background-image: url('../assets/blob-scene-haikei.svg');
+    transition: 0.3s;
+}
+
+.sidebar__sticky:hover .header__blobs {
+    opacity: 0.7;
 }

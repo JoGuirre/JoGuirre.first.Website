@@ -10,6 +10,7 @@ function Header() {
   return (
     <div className="header__container">
       <div className="sidebar__sticky">
+        <div className="header__blobs"></div>
         <div className="header__logo">
           <span>
             <h2 className="logo">JA</h2>
